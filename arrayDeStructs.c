@@ -35,12 +35,19 @@ int main (){
     produtos[3].quantidade = 15;
     produtos[3].preco = 149.99;
 
-    strcpy(prdutos[4].nome = "Oculos de Sol");
+    strcpy(produtos[4].nome, "Oculos de Sol");
     produtos[4].codigo = 105;
     produtos[4].quantidade = 10;
     produtos[4].preco = 89.99;
 
     //Exibindo os dados dos produtos
-    printf("=== Estoque de Produtos ===\n")
-    for (i = 0 < NUM_PRODUTOS; i++);
+    printf("\n=== Estoque de Produtos ===\n\n");
+    for (i = 0; i < 5; i++) {
+        printf("Produto %d: \n", i + 1);
+        printf("Nome: %s\n", produtos[i].nome);
+        printf("Codigo: %d\n", produtos[i].codigo);
+        printf("Quantidade; %d\n", produtos[i].quantidade);
+        printf("Preco: R$ %.2f\n\n", produtos[i].preco);
+    }
+    return 0;
 }
