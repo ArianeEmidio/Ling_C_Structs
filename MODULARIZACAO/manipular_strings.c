@@ -12,7 +12,7 @@ int main(){
 
     //Medindo o comprimento da string concatenada
     int comprimento = strlen(nome1);
-    printf("Comprimento do nome completo: %s\n", comprimento);
+    printf("Comprimento do nome completo: %d\n", comprimento);
 
     //Comparando strings
     if (strcmp(nome1, "Alana Silva") == 0) {
