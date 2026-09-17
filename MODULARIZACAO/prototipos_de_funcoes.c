@@ -15,3 +15,8 @@ int main() {
 
     return 0;
 }
+
+//Definição da função para calcular a area de um circulo
+float calcular_area_circulo(float raio) {
+    return 3.14159 * raio * raio; // Formula da area do circulo: π * r^2
+}
