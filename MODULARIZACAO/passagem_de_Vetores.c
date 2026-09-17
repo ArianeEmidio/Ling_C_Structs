@@ -20,4 +20,6 @@ int main() {
 
     //Exibindo o resultado
     printf("O total da lista de compras: %d\n", total);
+
+    return 0;
 }
